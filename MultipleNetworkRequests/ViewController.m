@@ -22,9 +22,6 @@
     // Do any additional setup after loading the view.
 }
 
-
-
-
 #pragma mark ========== 网路请求场景1-多个网络请求都完成后通知主线程(错误做法) ==========
 - (void)wrongOperation {
     dispatch_group_t myGroup = dispatch_group_create();
